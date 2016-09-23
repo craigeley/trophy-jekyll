@@ -9,14 +9,14 @@
     {% endfor %}
     <div class="previews__container">
       <span>Category</span>
-      <h1>{{ page.title }}</h1>
+      <h1>{{ page.title | replace: "-", " " }}</h1>
     </div>
   </div>
 
   <div>
     <header>
       <ul class="tabs">
-        <li class="tabs__item">{{ page.title }}</li>
+        <li class="tabs__item">{{ page.title | replace: "-", " " }}</li>
         <li class="tabs__item">Categories</li>
       </ul>
     </header>

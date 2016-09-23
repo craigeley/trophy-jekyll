@@ -2,8 +2,7 @@
 layout: post
 title: "Four Dollar Toast"
 date: 2016-09-04
-categories: 
-  - Brunch
+categories: [Brunch, Craig-Eley]
 description: 
 image: https://unsplash.it/2000/1200?image=1074
 image-sm: https://unsplash.it/500/300?image=1074
