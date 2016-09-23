@@ -368,10 +368,6 @@
     width: 55%;
   }
 
-  p:first-child {
-    font-size: 1.25em;
-  }
-
   a {
     border-bottom: 1px solid $color-alpha;
   }
@@ -526,5 +522,34 @@
     margin: 0 auto;
     padding-left: 1em;
     padding-right: 1em;
+  }
+}
+
+/**
+ * Category
+ */
+.category {
+  width: 90%;
+  max-width: $mq-md;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 0;
+
+  font-family: $font-post;
+
+  a {
+    border-bottom: 1px solid $color-alpha;
+  }
+
+  img {
+    padding-bottom: 0.75em;
+  }
+
+  figure {
+    padding-bottom: 0.75em;
+  }
+
+  figure > img {
+    padding-bottom: 0;
   }
 }
